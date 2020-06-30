@@ -1,7 +1,6 @@
 import 'normalize.css/normalize.css' // a modern alternative to CSS resets
 
 import '@canna/canna-h5/src/styles/index.scss' // global css
-import '@canna/plugin-exam-member-web/src/style/index.scss'
 
 import store from './store'
 import App from '@canna/canna-h5/src/App'

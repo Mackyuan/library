@@ -13,38 +13,7 @@
 npm install --registry https://npm.roywise.cn --unsafe-perm -f
 
 # install canna-h5
-npm --registry https://npm.roywise.cn install @canna/canna-h5
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-login 
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-dashboard 
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-layout 
-npm --registry https://npm.roywise.cn install @canna/plugin-table-info 
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-config-center
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-organization
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-system 
-npm --registry https://npm.roywise.cn install @canna/plugin-canna-common 
-npm --registry https://npm.roywise.cn install @canna/plugin-asset-info 
-npm --registry https://npm.roywise.cn install @canna/plugin-younger-manager
-npm --registry https://npm.roywise.cn install @canna/plugin-exam-manager
-npm --registry https://npm.roywise.cn install @canna/plugin-exam-member-web
-npm --registry https://npm.roywise.cn install @canna/plugin-urgent-organization
-npm --registry https://npm.roywise.cn install @canna/plugin-app-manager
 
-# update canna-h5
-npm --registry https://npm.roywise.cn update @canna/canna-h5
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-login 
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-dashboard 
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-layout 
-npm --registry https://npm.roywise.cn update @canna/plugin-table-info 
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-config-center
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-organization
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-system
-npm --registry https://npm.roywise.cn update @canna/plugin-canna-common 
-npm --registry https://npm.roywise.cn update @canna/plugin-asset-info 
-npm --registry https://npm.roywise.cn update @canna/plugin-younger-manager
-npm --registry https://npm.roywise.cn update @canna/plugin-exam-manager
-npm --registry https://npm.roywise.cn update @canna/plugin-exam-member-web
-npm --registry https://npm.roywise.cn update @canna/plugin-urgent-organization
-npm --registry https://npm.roywise.cn update @canna/plugin-app-manager
 
 # remove euler
 npm remove @canna/canna-h5
@@ -53,86 +22,6 @@ npm remove @canna/canna-h5
 npm publish --registry https://npm.roywise.cn
 
 ```
-
-```
-构建方法
-cd src/modules
-git clone http://120.78.61.232:32080/canna-web/canna-h5-framework.git
-git clone http://120.78.61.232:32080/plugins-web/canna-common.git
-git clone http://120.78.61.232:32080/plugins-web/canna-config-center.git
-git clone http://120.78.61.232:32080/plugins-web/canna-dashboard.git
-git clone http://120.78.61.232:32080/plugins-web/canna-layout.git
-git clone http://120.78.61.232:32080/plugins-web/canna-login.git
-git clone http://120.78.61.232:32080/plugins-web/canna-organization.git
-git clone http://120.78.61.232:32080/plugins-web/canna-system.git
-git clone http://120.78.61.232:32080/plugins-web/table-info.git
-git clone http://120.78.61.232:32080/plugins-web/travel-manager.git
-git clone http://120.78.61.232:32080/plugins-web/younger-manager.git
-git clone http://120.78.61.232:32080/plugins-web/asset-info.git
-git clone http://120.78.61.232:32080/plugins-web/canna-sms.git
-git clone http://120.78.61.232:32080/plugins-web/exam-manager.git
-git clone http://120.78.61.232:32080/plugins-web/exam-member-web.git
-git clone http://120.78.61.232:32080/plugins-web/urgent-organization.git
-git clone http://120.78.61.232:32080/plugins-web/app-manager.git
-
-cd canna-h5
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../asset-info
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-common
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-config-center
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-dashboard
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-layout
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-login
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-organization
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-system
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../table-info
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../canna-sms
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../asset-info
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../travel-info
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-cd ../younger-manager
-git pull
-git checkout remotes/origin/feature-200325 -b feature-200325
-
-```
-
 ## Project setup
 ```
 cnpm install

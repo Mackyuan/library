@@ -28,40 +28,10 @@ import CommonZhCnLocale from '@canna/plugin-canna-common/src/lang/zh-cn'
 import CommonEsLocale from '@canna/plugin-canna-common/src/lang/es'
 import CommonJaLocale from '@canna/plugin-canna-common/src/lang/ja'
 
-import AssetEnUsLocale from '@canna/plugin-asset-info/src/lang/en-us'
-import AssetZhCnLocale from '@canna/plugin-asset-info/src/lang/zh-cn'
-import AssetEsLocale from '@canna/plugin-asset-info/src/lang/es'
-import AssetJaLocale from '@canna/plugin-asset-info/src/lang/ja'
-
-import TravelManagerEnUsLocale from '@canna/plugin-travel-manager/src/lang/en-us'
-import TravelManagerZhCnLocale from '@canna/plugin-travel-manager/src/lang/zh-cn'
-import TravelManagerEsLocale from '@canna/plugin-travel-manager/src/lang/es'
-import TravelManagerJaLocale from '@canna/plugin-travel-manager/src/lang/ja'
-
 import SmsEnUsLocale from '@canna/plugin-canna-sms/src/lang/en-us'
 import SmsZhCnLocale from '@canna/plugin-canna-sms/src/lang/zh-cn'
 import SmsEsLocale from '@canna/plugin-canna-sms/src/lang/es'
 import SmsJaLocale from '@canna/plugin-canna-sms/src/lang/ja'
-
-import YoungerManagerEnUsLocale from '@canna/plugin-younger-manager/src/lang/en-us'
-import YoungerManagerZhCnLocale from '@canna/plugin-younger-manager/src/lang/zh-cn'
-import YoungerManagerEsLocale from '@canna/plugin-younger-manager/src/lang/es'
-import YoungerManagerJaLocale from '@canna/plugin-younger-manager/src/lang/ja'
-
-// import ExamManagerEnUsLocale from '@canna/plugin-exam-manager/src/lang/en-us'
-// import ExamManagerZhCnLocale from '@canna/plugin-exam-manager/src/lang/zh-cn'
-// import ExamManagerEsLocale from '@canna/plugin-exam-manager/src/lang/es'
-// import ExamManagerJaLocale from '@canna/plugin-exam-manager/src/lang/ja'
-
-import ExamMemberWebEnUsLocale from '@canna/plugin-exam-member-web/src/lang/en-us'
-import ExamMemberWebZhCnLocale from '@canna/plugin-exam-member-web/src/lang/zh-cn'
-import ExamMemberWebEsLocale from '@canna/plugin-exam-member-web/src/lang/es'
-import ExamMemberWebJaLocale from '@canna/plugin-exam-member-web/src/lang/ja'
-
-import UrgentOrganizationEnUsLocale from '@canna/plugin-urgent-organization/src/lang/en-us'
-import UrgentOrganizationZhCnLocale from '@canna/plugin-urgent-organization/src/lang/zh-cn'
-import UrgentOrganizationEsLocale from '@canna/plugin-urgent-organization/src/lang/es'
-import UrgentOrganizationJaLocale from '@canna/plugin-urgent-organization/src/lang/ja'
 
 import AppManagerEnUsLocale from '@canna/plugin-app-manager/src/lang/en-us'
 import AppManagerZhCnLocale from '@canna/plugin-app-manager/src/lang/zh-cn'
@@ -90,10 +60,10 @@ const messages = {
     ...enUsLocale,
     ...ConfigCenterEnUsLocale,
     ...elementEnLocale,
-    ...AssetEnUsLocale,
-    ...TravelManagerEnUsLocale,
+    // ...AssetEnUsLocale,
+    // ...TravelManagerEnUsLocale,
     ...SmsEnUsLocale,
-    ...YoungerManagerEnUsLocale,
+    // ...YoungerManagerEnUsLocale,
     // ...ExamManagerEnUsLocale,
     ...ExamMemberWebEnUsLocale,
     ...UrgentOrganizationEnUsLocale,
@@ -108,10 +78,10 @@ const messages = {
     ...zhCnLocale,
     ...ConfigCenterZhCnLocale,
     ...elementZhCnLocale,
-    ...AssetZhCnLocale,
-    ...TravelManagerZhCnLocale,
+    // ...AssetZhCnLocale,
+    // ...TravelManagerZhCnLocale,
     ...SmsZhCnLocale,
-    ...YoungerManagerZhCnLocale,
+    // ...YoungerManagerZhCnLocale,
     ...ExamMemberWebZhCnLocale,
     ...UrgentOrganizationZhCnLocale,
     ...AppManagerZhCnLocale
@@ -125,10 +95,10 @@ const messages = {
     ...esLocale,
     ...ConfigCenterEsLocale,
     ...elementEsLocale,
-    ...AssetEsLocale,
-    ...TravelManagerEsLocale,
+    // ...AssetEsLocale,/
+    // ...TravelManagerEsLocale,
     ...SmsEsLocale,
-    ...YoungerManagerEsLocale,
+    // ...YoungerManagerEsLocale,
     ...ExamMemberWebEsLocale,
     ...UrgentOrganizationEsLocale,
     ...AppManagerEsLocale
@@ -142,10 +112,10 @@ const messages = {
     ...jaLocale,
     ...ConfigCenterJaLocale,
     ...elementJaLocale,
-    ...AssetJaLocale,
-    ...TravelManagerJaLocale,
+    // ...AssetJaLocale,
+    // ...TravelManagerJaLocale,
     ...SmsJaLocale,
-    ...YoungerManagerJaLocale,
+    // ...YoungerManagerJaLocale,
     ...ExamMemberWebJaLocale,
     ...UrgentOrganizationJaLocale,
     ...AppManagerJaLocale

@@ -12,13 +12,7 @@ import configCenterCreate from '@canna/plugin-canna-config-center/src/router/can
 import orgRouterCreate from '@canna/plugin-canna-organization/src/router/canna-organization'
 import systemRouterCreate from '@canna/plugin-canna-system/src/router/canna-system'
 import commonRouterCreate from '@canna/plugin-canna-common/src/router/canna-common'
-import assetInfoRouterCreate from '@canna/plugin-asset-info/src/router/asset-info'
-import travelManagerRouterCreate from '@canna/plugin-travel-manager/src/router/travel-info'
 import smsRouterCreate from '@canna/plugin-canna-sms/src/router/sms-info'
-import youngerManagerRouterCreate from '@canna/plugin-younger-manager/src/router/index'
-import examManagerRouterCreate from '@canna/plugin-exam-manager/src/router/index'
-import examMemberWebRouterCreate from '@canna/plugin-exam-member-web/src/router/index'
-import urgentOrganizationRouterCreate from '@canna/plugin-urgent-organization/src/router/index'
 import appManagerRouterCreate from '@canna/plugin-app-manager/src/router/index'
 
 const configCenterRouter = configCenterCreate(Layout)
@@ -27,18 +21,11 @@ const extendRouter = extendRouterCreate(Layout)
 const orgRouter = orgRouterCreate(Layout)
 const systemRouter = systemRouterCreate(Layout)
 const commonRouter = commonRouterCreate(Layout)
-const assetInfoRouter = assetInfoRouterCreate(Layout)
-const travelManagerRouter = travelManagerRouterCreate(Layout)
 const smsRouter = smsRouterCreate(Layout)
-const youngerManagerRouter = youngerManagerRouterCreate(Layout)
-// const examManagerRouter = examManagerRouterCreate(Layout)
-const examManagerRouter = examManagerRouterCreate(Layout)
-const examMemberWebRouter = examMemberWebRouterCreate(Layout)
-const urgentOrganizationRouter = urgentOrganizationRouterCreate(Layout)
 const appManagerRouter = appManagerRouterCreate(Layout)
 
 var moduleRoutes = []
-var cloudRouters = baseRouter.concat(extendRouter).concat(loginRouter).concat(dashboardRouter).concat(configCenterRouter).concat(orgRouter).concat(systemRouter).concat(commonRouter).concat(assetInfoRouter).concat(travelManagerRouter).concat(smsRouter).concat(youngerManagerRouter).concat(examManagerRouter).concat(examMemberWebRouter).concat(urgentOrganizationRouter).concat(appManagerRouter)
+var cloudRouters = baseRouter.concat(extendRouter).concat(loginRouter).concat(dashboardRouter).concat(configCenterRouter).concat(orgRouter).concat(systemRouter).concat(commonRouter).concat(smsRouter).concat(appManagerRouter)
 var moduleRoute = {
   'canna-base': cloudRouters,
   'canna-index': indexRouter
